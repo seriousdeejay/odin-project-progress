@@ -1,0 +1,58 @@
+.flex-container {
+    display: flex;
+    /* default is horizontal, specify vertical with --> flex-direction: column; */
+    /* 'gap' sets distance between children */
+    gap: 20px;
+    
+  }
+  
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    width: 250px;
+    flex: 1 1 auto;
+    /*
+    Only for flex-direction: row (=horizontal) flex lay-out:
+        flex: 1 --> flex: 1 1 0%
+        which is a shorthand for flex-grow: 1, flex-shrink: 1 and flex-basis: 0%
+    */
+}
+
+.flex-container .two {
+    /* Not allowed to grow
+    flex-grow: 0; */
+    flex: 0 1 auto;
+}
+
+.flex-container .three {
+     
+    /* Not allowed to shrink
+      flex-shrink: 0; */
+      flex: 2 0 auto;
+}
+
+.flex-container .four {
+    flex: 1 1 90%;
+}
+
+.flex-container-2 {
+    height: 140px;
+    padding: 16px;
+    background: plum;
+    border: 4px solid indigo;
+    display: flex;
+    justify-content: space-between; /* Main Axis (horizontal for flex-direction: row, vertical for column */
+    align-items: center; /* Cross Axis (Vertical for flex-direction: row, Horizontal for column */
+    
+}
+
+.item {
+    width: 60px;
+    height: 60px;
+    border: 4px solid darkslategray;
+    background: skyblue;
+    /* flex: 1; */
+    
+}
