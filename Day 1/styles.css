@@ -1,4 +1,82 @@
 
-div {
-    color: blue;
+.full-page-content {
+    background-color: peachpuff;
+    flex-direction: column;
+    display: flex;
+}
+
+.sub-section {
+    border: 1px solid brown;
+    flex: 1 1 auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin: 0px 100px;
+    gap: 5px;
+}
+
+.menu-item h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+/* .menu-item {
+    padding: 0px 5px;
+} */
+
+.menu-item:first-child {
+    margin-right: auto;
+  }
+
+.columns {
+    display: flex;
+    height: 250px;
+    padding: 50px 100px;
+}
+
+.columns h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+.double-column {
+    width: 50%;
+    border: 1px solid black;
+}
+
+.left-column {
+
+}
+.right-column {
+
+}
+
+.button {
+
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0px 150px;
+}
+
+.image-box {
+    
+    width: 200px;
+    /* flex: 1 1 0%; */
+}
+
+.image {
+    border: 3px solid blue;
+    border-radius: 5%;
+    height: 200px;
 }
