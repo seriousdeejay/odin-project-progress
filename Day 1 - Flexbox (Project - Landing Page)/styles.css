@@ -1,0 +1,140 @@
+
+.full-page-content {
+    background-color: peachpuff;
+    flex-direction: column;
+    display: flex;
+}
+
+.sub-section {
+    background-color: white;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+.menu {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    padding: 0px 150px;
+    gap: 5px;
+    color: #e5E7EB;
+}
+
+.menu-item h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+/* .menu-item {
+    padding: 0px 5px;
+} */
+
+.menu-item:first-child {
+    margin-right: auto;
+  }
+
+.columns {
+    background-color: #1F2937;
+    display: flex;
+    height: 250px;
+    padding: 50px 150px;
+}
+
+.columns h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.columns p {
+    color: #e5E7EB;
+}
+
+.double-column {
+    width: 50%;
+}
+
+.right-column {
+    background-color: grey;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.button {
+    background-color: #3882F6;
+    text-decoration: none;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.information-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding-top: 30px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding:50px 150px;
+    text-align: center;
+}
+
+.image-box {
+    
+    width: 150px;
+    /* flex: 1 1 0%; */
+}
+
+.image {
+    border: 3px solid #3882F6;
+    border-radius: 5%;
+    height: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px 250px;
+
+}
+
+.quote p {
+    font-size: 36px;
+    /* font-style: italic; */
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quoteauthor {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.calltoaction {
+    background-color: #3882F6;
+    padding: 0px 80px;
+    margin: 50px 150px;
+    height: 100px;
+    border-radius:5px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.calltoaction-text {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.calltoaction-button {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
