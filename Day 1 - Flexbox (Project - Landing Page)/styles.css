@@ -1,5 +1,7 @@
 
 .full-page-content {
+    font-family: roboto;
+    background-color: white;
     background-color: peachpuff;
     flex-direction: column;
     display: flex;
