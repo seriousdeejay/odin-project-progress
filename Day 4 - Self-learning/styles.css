@@ -51,27 +51,24 @@ button {
 .cards {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
 }
 .card {
     text-align: center;
-    width: 250px;
-    height: 400px;
-    border-radius: 15px;
+    width: 200px;
+    border-radius: 20px;
     padding: 0px 20px 20px 20px;
-    background-color: #212121;
+    background-color: darkslategrey;
     color: white;
-    box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.6);
 }
 
 .card-button {
     background-color: lime;
-    margin: 30px 0px;
+    margin: 20px 0;
     width: 180px;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 0px 0px 10px rgb(255, 255, 255, 0.8);
-
-
 }
 
 .red {
@@ -82,15 +79,6 @@ button {
     background-color: orange;
 }
 
-.card-button:hover {
-    width: 200px;
-    padding: 20px 20px;
-    /* background-color: black; */
-}
-
-.button-box {
-    height: 115px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.card-button {
+    background-color: red;
 }
