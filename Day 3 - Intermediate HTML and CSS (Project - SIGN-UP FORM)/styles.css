@@ -1,1 +1,26 @@
 /* Project - SIGN-UP FORM */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+
+}
+
+/* .main > div {
+} */
+
+.left-side {
+    width: 30%;
+    min-width: 300px;
+}
+
+.right-side {
+    background-color: lightgrey;
+    margin-left: 20px;
+    flex-grow: 1;
+    border: 1px solid white;
+}
