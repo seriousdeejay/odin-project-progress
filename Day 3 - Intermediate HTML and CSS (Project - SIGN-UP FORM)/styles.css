@@ -1,12 +1,19 @@
 /* Project - SIGN-UP FORM */
+@font-face {
+    font-family: NorseBold;
+    src: url("Norse-Bold.otf");
+}
+
 body {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .main {
     display: flex;
     height: 100vh;
+    min-height: 500px;
 
 }
 
@@ -14,13 +21,126 @@ body {
 } */
 
 .left-side {
-    width: 30%;
-    min-width: 300px;
+    padding: 10px 0px;
+    /* width: 40%; */
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.logo-bar {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    font-size: 96px;
+    font-family: NorseBold, sans-serif;
+}
+
+.photo-credit {
+    text-align: center;
 }
 
 .right-side {
-    background-color: lightgrey;
-    margin-left: 20px;
+    min-width: 800px;
+    background-color: #F2F2F2;
     flex-grow: 1;
     border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-container {
+    height: auto;
+}
+
+.upper-text {
+    padding: 20px 200px 20px 50px;
+}
+
+.upper-text > p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h3 {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.card {
+    background-color: white;
+    padding: 30px 200px 30px 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form {
+    display: flex;
+    gap: 50px;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+.form-left > div > input {
+    width: 100%;
+    flex-grow: 1;
+}
+
+.form-right > div > input {
+    width: 100%;
+    flex-grow: 1;
+}
+
+button {
+    margin: 30px 0px 0px 0px;
+    background-color:darkgreen;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.form > div > div {
+    margin-bottom: 10px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+input:active {
+    border: 2px solid white;
+    border: none;
+}
+
+input:hover {
+    border: 2px solid grey;
+    box-shadow: 0px 0px 2px black;
+}
+
+/* input:focus:valid  {
+    border: 3px solid green;
+} */
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:not(:focus):not(:placeholder-shown):valid {
+    border: 2px solid green;
+}
+
+.error {
+    color: red;
 }

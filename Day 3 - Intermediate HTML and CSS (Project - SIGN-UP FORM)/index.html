@@ -10,10 +10,66 @@
 <body>
     <div class="main">
         <div class="left-side">
-            <img src="background-image.png" alt="" style="position:absolute; left: -100px; height: 100%; z-index: -1;">
+            <!-- <img src="background-image.png" alt="" style="position: absolute; top: 0px; left: 0px; max-height: 100vh; width: 100%; z-index: -1;"> -->
+            <img src="background-image.png" alt="" style="position: absolute; height: 100%; left: -100px; z-index: -1;">
+            <div class="logo-bar">
+                <img src="odin-lined.png" alt="odin-image" width="100px;">
+                <span>ODIN</span>
+            </div>
+            <div class="photo-credit">Photo by Halie West on Unsplash</div>
         </div>
-        <div class="right-side">e</div>
-        <!-- <img src="odin-lined.png" alt="odin-image"> -->
+        <div class="right-side">
+            <div class="right-container">
+                <div class="upper-text">
+                    <p>This is not a real online service! You know you need something
+                        like this in your life to help you realize your deepest dreams.
+                        Sign up <em>now</em> to get started.</p>
+                    <p>You <em>know</em> you want to.</p>
+                </div>
+                <div class="card">
+                    <h3>Let's do this!</h3>
+                    <form action="post" class="form">
+                        <div class="form-column form-left">
+                            <div>
+                                <label for="firstName">First Name</label>
+                                <input type="text" name="first_name" id="firstName" placeholder=" ">
+                            </div>
+
+                            <div>
+                                <label for="email">email</label>
+                                <input type="email" name="email" id="email" placeholder=" ">
+                            </div>
+
+                            <div>
+                                <label for="password">password</label>
+                                <input type="password" name="password" id="password" placeholder=" ">
+                                <small class="error">*passwords do not match</small>
+                            </div>
+                        </div>
+                        <div class="form-column form-right">
+                            <div>
+                                <label for="firstName">last Name</label>
+                                <input type="text" name="first_name" id="firstName" placeholder=" ">
+                            </div>
+
+                           <div> 
+                                <label for="email">phone number</label>
+                                <input type="email" name="email" id="email" placeholder=" ">
+                            </div>
+                            
+                            <div>
+                                <label for="confirmpassword">confirm password</label>
+                                <input type="password" name="confirmpassword" id="confirmpassword" placeholder=" ">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div style="padding-left: 30px;">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <span style="color: darkgreen;">Log in</span></p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
